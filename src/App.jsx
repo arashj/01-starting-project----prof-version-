@@ -5,6 +5,7 @@ import NoProjectSelected from "./Components/NoProjectSelected";
 import ProjectSidebar from "./Components/ProjectSidebar";
 import SelectedProject from "./Components/SelectedProject";
 
+//This is a Todo list app
 function App() {
   const [projectsState, setProjectsState] = useState({
     selectedProjectId: undefined,
